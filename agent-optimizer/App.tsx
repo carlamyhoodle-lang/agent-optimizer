@@ -1,9 +1,9 @@
 
 import React, { useState, useCallback } from 'react';
-import { Header } from './components/Header';
+import { header } from './components/header';
 import { InputForm } from './components/InputForm';
 import { OutputDisplay } from './components/OutputDisplay';
-import { Footer } from './components/Footer';
+import { footer } from './components/footer';h
 import { generateRealEstateContent } from './services/geminiService';
 import type { InputData } from './types';
 
@@ -43,7 +43,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      <footer />
     </div>
   );
 };
